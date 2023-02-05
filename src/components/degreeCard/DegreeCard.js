@@ -50,7 +50,10 @@ class DegreeCard extends Component {
               {degree.descriptions.map((sentence) => {
                 return (
                   <p className="content-list" style={{ color: theme.text }}>
-                    {sentence}
+                    {sentence.title} <br />
+                    <ul>
+                      <li>{sentence.description}</li>
+                    </ul>
                   </p>
                 );
               })}

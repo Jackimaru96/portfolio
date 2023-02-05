@@ -7,6 +7,8 @@ import DataScienceImg from "./DataScienceImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import ScratchImg from "../../assests/images/scratch.png";
+import MicrobitImg from "../../assests/images/microbit.png";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")
@@ -16,6 +18,17 @@ function GetSkillSvg(props) {
   else if (props.fileName === "CloudInfraImg")
     return <CloudInfraImg theme={props.theme} />;
   return <DesignImg theme={props.theme} />;
+}
+
+function GetSkillPng(props) {
+  return (
+    <img
+      width="80%"
+      height="80%"
+      src={require(`../../assests/images/${props.fileName}.png`)}
+      alt={`skill-${props.fileName}`}
+    />
+  );
 }
 
 class SkillSection extends Component {
@@ -28,11 +41,11 @@ class SkillSection extends Component {
             <div className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  {/* <img
-                    alt="Ashutosh is Analysing Data"
-                    src={require(`../../assests/images/${skill.imagePath}`)}
-                  ></img> */}
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  {skill.imgType === "png" ? (
+                    <GetSkillPng fileName={skill.fileName} alt={skill.title} />
+                  ) : (
+                    <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  )}
                 </div>
               </Fade>
 
@@ -42,9 +55,6 @@ class SkillSection extends Component {
                     {skill.title}
                   </h1>
                 </Fade>
-                <Fade right duration={1500}>
-                  <SoftwareSkill logos={skill.softwareSkills} />
-                </Fade>
                 <Fade right duration={2000}>
                   <div>
                     {skill.skills.map((skillSentence) => {
@@ -53,7 +63,11 @@ class SkillSection extends Component {
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
-                          {skillSentence}
+                          {skillSentence.title}
+                          <br />
+                          <ul>
+                            <li>{skillSentence.description}</li>
+                          </ul>
                         </p>
                       );
                     })}
