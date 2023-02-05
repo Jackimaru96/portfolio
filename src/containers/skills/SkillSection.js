@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import "./Skills.css";
-import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
-import { skills } from "../../portfolio";
 import { Fade } from "react-reveal";
-import DataScienceImg from "./DataScienceImg";
-import FullStackImg from "./FullStackImg";
+
+import { skills } from "../../portfolio";
 import CloudInfraImg from "./CloudInfraImg";
+import DataScienceImg from "./DataScienceImg";
 import DesignImg from "./DesignImg";
-import ScratchImg from "../../assests/images/scratch.png";
-import MicrobitImg from "../../assests/images/microbit.png";
+import FullStackImg from "./FullStackImg";
+import "./Skills.css";
 
 function GetSkillSvg(props) {
   if (props.fileName === "DataScienceImg")

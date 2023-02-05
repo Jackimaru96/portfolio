@@ -9,12 +9,15 @@ export default function Footer(props) {
     <div className="footer-div">
       <Fade>
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Made with <span role="img">❤️</span> by {credits.name} <br />
-          Original template <a href={credits.link}>here</a>
-        </p>
-        <p className="footer-text" style={{ color: props.theme.secondaryText }}>
-          Modified by <a href={"http://theyoungmaker.com/"}>The Young Maker</a>{" "}
-          for student's use
+          Modified by{" "}
+          <a href={"http://theyoungmaker.com/"} target="_blank">
+            The Young Maker
+          </a>{" "}
+          for student's use <br />
+          Original template{" "}
+          <a href={credits.link} target={"_blank"}>
+            here
+          </a>
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>
