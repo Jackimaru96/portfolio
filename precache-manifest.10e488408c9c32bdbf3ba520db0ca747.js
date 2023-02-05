@@ -1,23 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "03cc26cacb7721cf8f8baa4a54a3639c",
+    "revision": "ae6b706508705cdf762be5aab19935ed",
     "url": "./index.html"
   },
   {
-    "revision": "a3e62d472d6355baee72",
-    "url": "./static/css/main.143eba78.chunk.css"
+    "revision": "5480e1d008d2d900e6bb",
+    "url": "./static/css/main.e1e4c8d1.chunk.css"
   },
   {
-    "revision": "501aec8b8f18836dc95d",
-    "url": "./static/js/2.f2865282.chunk.js"
+    "revision": "54f396ac3ba7ed145266",
+    "url": "./static/js/2.2a01769a.chunk.js"
   },
   {
-    "revision": "a3e62d472d6355baee72",
-    "url": "./static/js/main.0a834490.chunk.js"
+    "revision": "5480e1d008d2d900e6bb",
+    "url": "./static/js/main.8ac1b992.chunk.js"
   },
   {
     "revision": "1a27038c5115d044f6f9",
     "url": "./static/js/runtime-main.fff6ee50.js"
+  },
+  {
+    "revision": "477454ae6dcc4560ee2bacf4db052372",
+    "url": "./static/media/ABRSM.477454ae.jpg"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -50,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ee6539921d713482b8ccd4d0d23961bb",
     "url": "./static/media/Montserrat-Regular.ee653992.ttf"
+  },
+  {
+    "revision": "a6c2206914479cb6879fb18eab041e6e",
+    "url": "./static/media/TYM_Logo.a6c22069.png"
   },
   {
     "revision": "16559172ca1d4d552390b48f19e102ba",
@@ -212,8 +220,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/legato_logo.c597fbde.png"
   },
   {
+    "revision": "84d3b1d8da860bb76677120e33a917be",
+    "url": "./static/media/man.84d3b1d8.png"
+  },
+  {
     "revision": "83ac24fb968a474c6a63f7a4e9a8f62c",
     "url": "./static/media/manOnTable.83ac24fb.svg"
+  },
+  {
+    "revision": "8b606cf60135e00beb78983adff9762d",
+    "url": "./static/media/microbit.8b606cf6.png"
   },
   {
     "revision": "069938a84edd6ebf383c318e9feb5d4c",
@@ -240,6 +256,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/pwa.71408db7.png"
   },
   {
+    "revision": "c13e6d50a494e2a20dfae22cfe8ac744",
+    "url": "./static/media/scratch.c13e6d50.png"
+  },
+  {
     "revision": "2c497738be3831492aeb6bdc43f19154",
     "url": "./static/media/stanford_logo.2c497738.png"
   },
@@ -258,5 +278,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "./static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "569e572826e057b5056dbad2f0bef46a",
+    "url": "./static/media/woman.569e5728.png"
   }
 ]);
