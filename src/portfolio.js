@@ -7,20 +7,20 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ashutosh's Portfolio",
+  title: "SAMPLE Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Passionate  developer",
   og: {
-    title: "Ashutosh Hathidara Portfolio",
+    title: "SAMPLE Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "http://theyoungmaker.com",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Ashutosh Hathidara",
-  logo_name: "AshutoshHathidara",
+  title: "TEST",
+  logo_name: "THEYOUNGMAKER",
   nickname: "layman_brother",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
