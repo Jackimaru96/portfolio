@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jackchen.dev"),
+  metadataBase: new URL("https://jackchenyj.dev"),
   title: "Jack Chen — Product Engineer",
   description:
     "I turn AI capabilities into products people actually use, from the frontend down to the firmware.",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "Jack Chen — Product Engineer",
     description:
       "I turn AI capabilities into products people actually use, from the frontend down to the firmware.",
-    url: "https://jackchen.dev",
+    url: "https://jackchenyj.dev",
     siteName: "jack.chen",
   },
   twitter: {
