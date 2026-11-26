@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f1ea;
+  --foreground: #17150f;
+  --muted: #6b6657;
+  --accent: #c2542e;
+  --card: #fbf9f4;
+  --border: #e2ddcf;
+  --dark-bg: #141310;
+  --dark-fg: #f4f1ea;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-card: var(--card);
+  --color-border: var(--border);
+  --color-dark-bg: var(--dark-bg);
+  --color-dark-fg: var(--dark-fg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+.blueprint-grid {
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}
